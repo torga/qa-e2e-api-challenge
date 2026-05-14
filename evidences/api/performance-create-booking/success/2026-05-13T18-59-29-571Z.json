@@ -1,0 +1,45 @@
+{
+  "createdAt": "2026-05-13T18:59:29.576Z",
+  "request": {
+    "firstname": "Perf",
+    "lastname": "Test",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-01-01",
+      "checkout": "2026-01-05"
+    }
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "content-length": "167",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Wed, 13 May 2026 18:59:29 GMT",
+      "etag": "W/\"a7-0Gxbr2Ppolrekvu6lMh7rmw8Pf4\"",
+      "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=1p3bX6xA2x%2B%2BXSvygEs6iICDv418z40%2B7wuQpaDjTCg%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1778698769\"}],\"max_age\":3600}",
+      "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=1p3bX6xA2x%2B%2BXSvygEs6iICDv418z40%2B7wuQpaDjTCg%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1778698769\"",
+      "server": "Heroku",
+      "via": "1.1 heroku-router",
+      "x-powered-by": "Express"
+    },
+    "body": {
+      "responseBody": {
+        "bookingid": 4366,
+        "booking": {
+          "firstname": "Perf",
+          "lastname": "Test",
+          "totalprice": 150,
+          "depositpaid": true,
+          "bookingdates": {
+            "checkin": "2026-01-01",
+            "checkout": "2026-01-05"
+          }
+        }
+      },
+      "durationMs": 312
+    }
+  }
+}

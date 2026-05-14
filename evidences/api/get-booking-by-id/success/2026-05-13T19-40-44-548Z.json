@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-05-13T19:40:44.548Z",
+  "request": {
+    "bookingId": 5030
+  },
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "content-length": "136",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Wed, 13 May 2026 19:40:44 GMT",
+      "etag": "W/\"88-+aW8lp+mP1sfayWI8+bSxXrI+pg\"",
+      "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=OL%2FZ1NZiFHSR%2B%2FAl4%2BiD8hqeZkvl%2FULiwEYq9uZwsWk%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1778701244\"}],\"max_age\":3600}",
+      "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=OL%2FZ1NZiFHSR%2B%2FAl4%2BiD8hqeZkvl%2FULiwEYq9uZwsWk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1778701244\"",
+      "server": "Heroku",
+      "via": "1.1 heroku-router",
+      "x-powered-by": "Express"
+    },
+    "body": {
+      "firstname": "Igor",
+      "lastname": "QA",
+      "totalprice": 100,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2026-01-10",
+        "checkout": "2026-01-15"
+      }
+    }
+  }
+}
