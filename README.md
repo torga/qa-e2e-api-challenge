@@ -55,10 +55,10 @@ https://restful-booker.herokuapp.com/
 
 ### Level 2 - Differential
 
-- Accessibility testing
-- Automated E2E testing with Playwright
-- Screenshot, video and trace generation
-- Organized evidence management
+- Accessibility testing ✅
+- Automated E2E testing with Playwright ✅
+- Screenshot and trace generation ✅
+- Organized evidence management ✅
 
 ---
 
